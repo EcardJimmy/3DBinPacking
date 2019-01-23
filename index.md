@@ -15,7 +15,7 @@
 
 ## 程式:
 Gui_BP.py
-DrawBox.py
+[DrawBox.py](https://github.com/EcardJimmy/3DBinPacking/DrawBox.py)
 Packing3D.py
 MyMath.py
 
