@@ -14,10 +14,10 @@
   	8. 改變方向: L.W.H -> W.H.L…
 
 ## 程式:
-Gui_BP.py
-[DrawBox.py](https://github.com/EcardJimmy/3DBinPacking/DrawBox.py)
-Packing3D.py
-MyMath.py
+* Gui_BP.py
+* [DrawBox.py](https://github.com/EcardJimmy/3DBinPacking/DrawBox.py)
+* Packing3D.py
+* MyMath.py
 
 ## 說明:
 	1. 可放置點:
