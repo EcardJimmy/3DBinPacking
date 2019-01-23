@@ -24,56 +24,57 @@
 	如何增加/減少點
         Z->X->Y 優先
 	2. 箱子所有可能擺放方向(考濾24種)
-	def set_box_dir(self,i): # 箱子不同擺放方向
-	if i==0:
-	self.r=[self.l,self.w,self.h]
-	if i==1:
-	self.r=[self.l,self.h,self.w]
-	if i==2:
-	self.r=[self.w,self.l,self.h]
-	if i==3:
-	self.r=[self.w,self.h,self.l]
-	if i==4:
-	self.r=[self.h,self.l,self.w]
-	if i==5:
-	self.r=[self.h,self.w,self.l]
-	if i==6:
-	self.r=[self.l,-self.w,self.h]
-	if i==7:
-	self.r=[self.l,-self.h,self.w]
-	if i==8:
-	self.r=[self.w,-self.l,self.h]
-	if i==9:
-	self.r=[self.w,-self.h,self.l]
-	if i==10:
-	self.r=[self.h,-self.l,self.w]
-	if i==11:
-	self.r=[self.h,-self.w,self.l]
-	if i==12:
-	self.r=[-self.l,self.w,self.h]
-	if i==13:
-	self.r=[-self.l,self.h,self.w]
-	if i==14:
-	self.r=[-self.w,self.l,self.h]
-	if i==15:
-	self.r=[-self.w,self.h,self.l]
-	if i==16:
-	self.r=[-self.h,self.l,self.w]
-	if i==17:
-	self.r=[-self.h,self.w,self.l] 
-	if i==18:
-	self.r=[-self.l,-self.w,self.h]
-	if i==19:
-	self.r=[-self.l,-self.h,self.w]
-	if i==20:
-	self.r=[-self.w,-self.l,self.h]
-	if i==21:
-	self.r=[-self.w,-self.h,self.l]
-	if i==22:
-	self.r=[-self.h,-self.l,self.w]
-	if i==23:
-	self.r=[-self.h,-self.w,self.l] 
-
+'''	
+def set_box_dir(self,i): # 箱子不同擺放方向
+if i==0:
+self.r=[self.l,self.w,self.h]
+if i==1:
+self.r=[self.l,self.h,self.w]
+if i==2:
+self.r=[self.w,self.l,self.h]
+if i==3:
+self.r=[self.w,self.h,self.l]
+if i==4:
+self.r=[self.h,self.l,self.w]
+if i==5:
+self.r=[self.h,self.w,self.l]
+if i==6:
+self.r=[self.l,-self.w,self.h]
+if i==7:
+self.r=[self.l,-self.h,self.w]
+if i==8:
+self.r=[self.w,-self.l,self.h]
+if i==9:
+self.r=[self.w,-self.h,self.l]
+if i==10:
+self.r=[self.h,-self.l,self.w]
+if i==11:
+self.r=[self.h,-self.w,self.l]
+if i==12:
+self.r=[-self.l,self.w,self.h]
+if i==13:
+self.r=[-self.l,self.h,self.w]
+if i==14:
+self.r=[-self.w,self.l,self.h]
+if i==15:
+self.r=[-self.w,self.h,self.l]
+if i==16:
+self.r=[-self.h,self.l,self.w]
+if i==17:
+self.r=[-self.h,self.w,self.l] 
+if i==18:
+self.r=[-self.l,-self.w,self.h]
+if i==19:
+self.r=[-self.l,-self.h,self.w]
+if i==20:
+self.r=[-self.w,-self.l,self.h]
+if i==21:
+self.r=[-self.w,-self.h,self.l]
+if i==22:
+self.r=[-self.h,-self.l,self.w]
+if i==23:
+self.r=[-self.h,-self.w,self.l] 
+'''	
 	3. 基線: 確保箱子->X->Y->Z放置
 	4. 干涉檢查: 
 	排除長方體所有不相交的狀況後,其他即為干涉
