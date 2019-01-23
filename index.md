@@ -22,18 +22,8 @@ MyMath.py
 # 說明:
 	1. 可放置點:
 	如何增加/減少點
-	
-	
-	
-	
-	
-	
         Z->X->Y 優先
-        
-	
-
 	2. 箱子所有可能擺放方向(考濾24種)
-	
 	def set_box_dir(self,i): # 箱子不同擺放方向
 	if i==0:
 	self.r=[self.l,self.w,self.h]
@@ -85,10 +75,6 @@ MyMath.py
 	self.r=[-self.h,-self.w,self.l] 
 
 	3. 基線: 確保箱子->X->Y->Z放置
-	
-	
-	
-	
 	4. 干涉檢查: 
 	排除長方體所有不相交的狀況後,其他即為干涉
 	
