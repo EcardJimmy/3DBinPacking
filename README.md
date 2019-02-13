@@ -51,5 +51,9 @@ To package bin in Rear compartment with python.
 ![圖片一](./3d_bin_packing.files/image018.jpg)		
 	
 	
-	
+## 說明影片
+[![車箱擺放計算原理](http://img.youtube.com/vi/o3uxIBwZzhc&list=PL4g7rFB41nwzd-8ikzRLC2BOdeeGRDsdw&index=1/1.jpg)](http://www.youtube.com/watch?v=o3uxIBwZzhc&list=PL4g7rFB41nwzd-8ikzRLC2BOdeeGRDsdw&index=1)
 
+[![車箱擺放程式說明](http://img.youtube.com/vi/N7-DmCFpOLM&list=PL4g7rFB41nwzd-8ikzRLC2BOdeeGRDsdw&index=2/1.jpg)](http://www.youtube.com/watch?v=N7-DmCFpOLM&list=PL4g7rFB41nwzd-8ikzRLC2BOdeeGRDsdw&index=2)
+
+[![車箱擺放程式執行](http://img.youtube.com/vi/UdwiDG78Pqs&list=PL4g7rFB41nwzd-8ikzRLC2BOdeeGRDsdw&index=3/1.jpg)](http://www.youtube.com/watch?v=UdwiDG78Pqs&list=PL4g7rFB41nwzd-8ikzRLC2BOdeeGRDsdw&index=3)
