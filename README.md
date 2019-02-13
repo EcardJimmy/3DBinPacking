@@ -41,6 +41,7 @@ To package bin in Rear compartment with python.
 		[ l,-w, h],[ l,-h, w],[ w,-l, h],[ w,-h, l],[ h,-l, w],[ h,-w, l]
 		[-l, w, h],[-l, h, w],[-w, l, h],[-w, h, l],[-h, l, w],[-h, w, l] 
 		[-l,-w, h],[-l,-h, w],[-w,-l, h],[-w,-h, l],[-h,-l, w],[-h,-w, l] 
+
 	3. 基線: 確保箱子->X->Y->Z放置
 ![圖片一](./3d_bin_packing.files/image014.jpg)
 
@@ -54,13 +55,13 @@ To package bin in Rear compartment with python.
 ## 說明影片
 - 車箱擺放計算原理
 
-[![車箱擺放計算原理](http://img.youtube.com/vi/o3uxIBwZzhc/1.jpg)](http://www.youtube.com/watch?v=o3uxIBwZzhc)
+[![車箱擺放計算原理](http://img.youtube.com/vi/o3uxIBwZzhc/0.jpg)](http://www.youtube.com/watch?v=o3uxIBwZzhc)
 
 - 車箱擺放程式說明
 
-[![車箱擺放程式說明](http://img.youtube.com/vi/N7-DmCFpOLM/1.jpg)](http://www.youtube.com/watch?v=N7-DmCFpOLM)
+[![車箱擺放程式說明](http://img.youtube.com/vi/N7-DmCFpOLM/0.jpg)](http://www.youtube.com/watch?v=N7-DmCFpOLM)
 
 - 車箱擺放程式執行
 
-[![車箱擺放程式執行](http://img.youtube.com/vi/UdwiDG78Pqs/1.jpg)](http://www.youtube.com/watch?v=UdwiDG78Pqs)
+[![車箱擺放程式執行](http://img.youtube.com/vi/UdwiDG78Pqs/0.jpg)](http://www.youtube.com/watch?v=UdwiDG78Pqs)
 
