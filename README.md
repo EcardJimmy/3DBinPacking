@@ -5,7 +5,7 @@ To package bin in Rear compartment with python.
 
 ## 問題: 
 車箱擺放大小不同行李箱的狀況(例:XXL, XL, L, M, S…).
-
+![圖片一](./3d_bin_packing.files/image001.png)
 ## 思考:
 	1. 擬人法 : 模擬人的擺法,長邊先擺,靠邊擺,大的箱子先擺…
 	2. 貪心法: 優先擺大箱子(事實上擺小箱子可得最大填充率),箱子最長設為X方向,其次Y,其次Z
@@ -25,15 +25,28 @@ To package bin in Rear compartment with python.
 ## 說明:
 	1. 可放置點:
 		* 如何增加/減少點
+![圖片一](./3d_bin_packing.files/image004.jpg)
+![圖片一](./3d_bin_packing.files/image006.jpg)
+![圖片一](./3d_bin_packing.files/image008.jpg)
+
 		* Z->X->Y 優先
+![圖片一](./3d_bin_packing.files/image010.jpg)
+
 	2. 箱子所有可能擺放方向(考慮24種)
+![圖片一](./3d_bin_packing.files/image012.jpg)
+
 		[ l, w, h],[ l, h, w],[ w, l, h],[ w, h, l],[ h, l, w],[ h, w, l]
 		[ l,-w, h],[ l,-h, w],[ w,-l, h],[ w,-h, l],[ h,-l, w],[ h,-w, l]
 		[-l, w, h],[-l, h, w],[-w, l, h],[-w, h, l],[-h, l, w],[-h, w, l] 
 		[-l,-w, h],[-l,-h, w],[-w,-l, h],[-w,-h, l],[-h,-l, w],[-h,-w, l] 
 	3. 基線: 確保箱子->X->Y->Z放置
+![圖片一](./3d_bin_packing.files/image014.jpg)
+
+![圖片一](./3d_bin_packing.files/image016.jpg)
+
 	4. 干涉檢查: 
 		*排除長方體所有不相交的狀況後,其他即為干涉
+![圖片一](./3d_bin_packing.files/image018.jpg)		
 	
 	
 	
