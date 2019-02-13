@@ -26,7 +26,9 @@ To package bin in Rear compartment with python.
 	1. 可放置點:
 		* 如何增加/減少點
 ![圖片一](./3d_bin_packing.files/image004.jpg)
+
 ![圖片一](./3d_bin_packing.files/image006.jpg)
+
 ![圖片一](./3d_bin_packing.files/image008.jpg)
 
 		* Z->X->Y 優先
