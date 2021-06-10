@@ -5,7 +5,10 @@ To package bin in Rear compartment with python.
 
 ## 問題: 
 車箱擺放大小不同行李箱的狀況(例:XXL, XL, L, M, S…).
-![圖片一](./3d_bin_packing.files/image001.png)
+
+<img src="./3d_bin_packing.files/image001.png" alt="drawing" width="200"/>
+![圖片一](./3d_bin_packing.files/image001.png )
+
 ## 思考:
 	1. 擬人法 : 模擬人的擺法,長邊先擺,靠邊擺,大的箱子先擺…
 	2. 貪心法: 優先擺大箱子(事實上擺小箱子可得最大填充率),箱子最長設為X方向,其次Y,其次Z
@@ -25,7 +28,7 @@ To package bin in Rear compartment with python.
 ## 說明:
 	1. 可放置點:
 		* 如何增加/減少點
-![圖片一](./3d_bin_packing.files/image004.jpg)
+![圖片一](./3d_bin_packing.files/image004.jpg )
 
 ![圖片一](./3d_bin_packing.files/image006.jpg)
 
